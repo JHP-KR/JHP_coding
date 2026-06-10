@@ -134,7 +134,6 @@ git push origin feature/add-new-example
 * NumPy
 * Pandas
 * Matplotlib
-* Scikit-learn
 * Jupyter Notebook
 
 ## 프로젝트 목적
