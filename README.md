@@ -10,33 +10,32 @@
 
 ## 주요 기능
 
-* 단순선형회귀와 다중선형회귀 구현
-* 잔차 분석 및 기본 회귀 진단 시각화
-* 경사하강법을 이용한 선형모델 학습 과정 구현
-* K-Means 클러스터링 예제
-* 분류 모델의 성능 평가 지표 정리
-* 행렬 연산, 고윳값, SVD 등 머신러닝 수학 개념 예제
-* 학습용 Jupyter Notebook 제공
-* 데이터 전처리 및 시각화 예제 제공
+현재 구현된 기능은 다음과 같습니다.
+
+- 단순선형회귀 직접 구현
+- 평균제곱오차, 평균절대오차, 결정계수 등 기본 평가 지표 구현
+- 회귀분석 예제 코드 제공
+- 학습 내용을 코드와 문서로 정리하는 오픈소스 형식의 저장소 운영
+
+향후 확장 예정 기능은 다음과 같습니다.
+
+- 다중선형회귀 구현
+- 잔차 분석 및 기본 회귀 진단 시각화
+- 경사하강법을 이용한 선형모델 학습 과정 구현
+- K-Means 클러스터링 예제
+- 행렬 연산, 고윳값, SVD 등 머신러닝 수학 개념 예제
+- Jupyter Notebook 기반 학습 자료 추가
 
 ## 프로젝트 구조
 
 ```text
 JHP_coding/
 ├── README.md
+├── LICENSE
 ├── requirements.txt
-├── notebooks/
-│   ├── 01_linear_regression.ipynb
-│   ├── 02_residual_analysis.ipynb
-│   ├── 03_gradient_descent.ipynb
-│   └── 04_kmeans_clustering.ipynb
 ├── src/
 │   ├── linear_regression.py
-│   ├── metrics.py
-│   ├── preprocessing.py
-│   └── visualization.py
-├── data/
-│   └── sample_data.csv
+│   └── metrics.py
 └── examples/
     └── regression_example.py
 ```
